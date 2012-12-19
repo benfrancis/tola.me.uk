@@ -18,6 +18,8 @@ body {
   background: linear-gradient(90deg, #000, #313131 50%, #000);
   font-family: Helvetica, sans-serif;
   font-size: 14px;
+  padding: 20px;
+  margin: 0;
 }
 
 a {
@@ -30,8 +32,16 @@ a:hover {
 }
 
 header {
+  min-width: 580px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header hgroup {
   width: 380px;
-  margin: 100px auto 50px auto;
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 20px;
 }
 
 header h1 {
@@ -41,64 +51,23 @@ header h1 {
   margin: 0;
 }
 
-header span {
+header h2 {
   display: block;
   font: 20px Helvetica, sans-serif;
   color: #808080;
   text-align: right;
+  margin: 0;
+  margin-top: -15px;
 }
 
-section#main {
-  width: 500px;
-  margin: 0 auto;
-  position: relative;;
-}
-
-img#photo {
-  border: solid 10px #fff;
-  transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  -moz-transform: rotate(-5deg);
-}
-
-#tweet {
-  background-color: #555;
-  border-radius: 5px;
-  padding: 20px;
-  width: 270px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-#tweet:after {
-  position: absolute;
-  left: -10px;
-  bottom: 30px;
-  display: block;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  background-color: #555;
-  content: "";
-  width: 20px;
-  height: 20px;
-}
-
-#tweet time {
-  color: #b3b3b3;
+header nav {
+  float: right;
+  text-align: right;
 }
 
 nav {
   font-size: 16px;
-  margin: 0 auto;
   display: block;
-  width: 500px;
-  text-align: center;
-  margin-top: 50px;
 }
 
 nav ul {
@@ -139,4 +108,19 @@ nav li a {
 
 nav li a.selected, nav li a:hover {
   text-decoration: overline;
+}
+
+section.page {
+  clear: both;
+  background-color: #fff;
+  border-radius: 5px;
+  min-width: 500px;
+  max-width: 880px;
+  color: #000;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+section h1 {
+  margin-top: 0;
 }

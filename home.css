@@ -1,0 +1,55 @@
+header hgroup {
+  margin: 100px auto 50px auto;
+  float: none;
+}
+
+section#intro {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;;
+}
+
+img#photo {
+  border: solid 10px #fff;
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+}
+
+#tweet {
+  background-color: #555;
+  border-radius: 5px;
+  padding: 20px;
+  width: 270px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#tweet:after {
+  position: absolute;
+  left: -10px;
+  bottom: 30px;
+  display: block;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  background-color: #555;
+  content: "";
+  width: 20px;
+  height: 20px;
+}
+
+#tweet time {
+  color: #b3b3b3;
+}
+
+footer nav {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 500px;
+  text-align: center;
+}

@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <title>Ben Francis</title>
     <link rel="stylesheet" href="site.css" type="text/css" />
+    <link rel="stylesheet" href="home.css" type="text/css" />
     <script type="text/javascript" src="moment.min.js"></script>
     <script type="text/javascript" src="home.js"></script>
     <script defer src="http://api.twitter.com/1/statuses/user_timeline/bfrancis.json?count=1&include_rts=0&callback=showTweet"></script>
@@ -15,11 +16,13 @@
   <body>
     
     <header>
-      <h1>Ben Francis</h1>
-      <span>tola.me.uk</span>
+      <hgroup>
+        <h1>Ben Francis</h1>
+        <h2>tola.me.uk</h2>
+      </hgroup>
     </header>
 
-    <section id="main">
+    <section id="intro">
       <img id="photo" src="images/ben.jpg" alt="Ben" />
 
       <div id="tweet">
@@ -30,16 +33,18 @@
 
    </section>
 
-   <nav>
-    <ul>
-      <li><a class="selected" href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/software">Software</a></li>
-      <li><a href="/music">Music</a></li>
-      <li><a href="/poetry">Poetry</a></li>
-    </ul>
-   </nav>
+   <footer>
+     <nav>
+      <ul>
+        <li><a class="selected" href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/software">Software</a></li>
+        <li><a href="/music">Music</a></li>
+        <li><a href="/poetry">Poetry</a></li>
+      </ul>
+     </nav>
+   </footer>
 
   </body>
 

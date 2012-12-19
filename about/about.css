@@ -1,0 +1,15 @@
+section#about {
+  min-height: 180px;
+}
+
+img#photo {
+  border: 10px solid white;
+  box-shadow: 0 0 10px #000;
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
