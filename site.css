@@ -9,6 +9,16 @@
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'BelligerentMadnessRegular';
+	src: url('fonts/belligerent-webfont.eot?') format('eot'),
+		url('fonts/belligerent-webfont.woff') format('woff'),
+		url('fonts/belligerent-webfont.ttf') format('truetype'),
+		url('fonts/belligerent-webfont.svg#webfontqdGI9bTD') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
   color: #fff;
   background-color: #000;
@@ -119,6 +129,7 @@ section.page {
   color: #000;
   padding: 40px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 section h1 {

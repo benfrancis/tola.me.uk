@@ -1,0 +1,73 @@
+#poems {
+  clear: both;
+  min-width: 500px;
+  max-width: 960px;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#poems a {
+  color: #000;
+}
+
+li.poem {
+  width: 260px;
+  height: 100px;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 20px;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+li.poem h1 {
+  font: 28px 'BelligerentMadnessRegular', Helvetica, sans-serif;
+}
+
+li.poem small {
+  color: #808080;
+  font-size: 16px;
+}
+
+article.poem {
+  clear: both;
+  background-color: #fff;
+  border-radius: 5px;
+  min-width: 500px;
+  max-width: 880px;
+  color: #000;
+  padding: 40px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+article.poem p {
+  font-family: serif;
+  font-size: 14px;
+  margin: 30px auto;
+  line-height: 140%;
+}
+
+article.poem h1 {
+    font: 32px 'BelligerentMadnessRegular', Helvetica, sans-serif;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+article.poem small {
+  color: #808080;
+  font-size: 13px;
+}
+
+article.poem details {
+  display: block;
+  margin-top: 50px;
+  color: #808080;
+  font-size: 13px;
+}

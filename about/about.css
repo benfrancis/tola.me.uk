@@ -1,3 +1,7 @@
+h1 {
+  font: 28px 'BelligerentMadnessRegular', Helvetica, sans-serif;
+}
+
 section#about {
   min-height: 180px;
 }
