@@ -76,3 +76,38 @@ article.album {
 #lastfm {
   text-align: center;
 }
+
+#download {
+  clear: both;
+  text-align: center;
+}
+
+.album details, .song details {
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+  color: #808080;
+  font-size: 13px;
+}
+
+article.song {
+  text-align: center;
+}
+
+article.song h1 {
+  margin: 0;
+  font: 32px 'BelligerentMadnessRegular', Helvetica, sans-serif;
+  text-align: center;
+}
+
+article.song small {
+  color: #808080;
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  margin: 10px auto 20px auto;
+}
+
+article.song pre {
+  text-align: left;
+}
