@@ -23,6 +23,7 @@ body {
   color: #fff;
   background-color: #000;
   background: -webkit-linear-gradient(0deg, #000, #313131 50%, #000);
+  background: -ms-linear-gradient(0deg, #000, #313131 50%, #000);
   background: -o-linear-gradient(0deg, #000, #313131 50%, #000);
   background: -moz-linear-gradient(0deg, #000, #313131 50%, #000);
   background: linear-gradient(90deg, #000, #313131 50%, #000);

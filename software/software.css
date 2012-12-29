@@ -1,20 +1,62 @@
-#firefox_os {
-  overflow: hidden;
-}
-
-#firefox_os .screenshot {
-  float: left;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-
-#webian .screenshot {
-  margin: 0 auto;
-  margin-top: 20px;
+section#software_projects {
+  clear: both;
   display: block;
+  min-width: 580px;
+  max-width: 960px;
+  color: #000;
+  padding: 0;
+  margin: 0 auto;
 }
 
-#drd_pi .photo {
-  margin-top: 20px;
-  margin-right: 20px;
+#working_on {
+  font: 20px 'BelligerentMadnessRegular', Helvetica, sans-serif;
+  color: #fff;
 }
+
+a.project {
+  display: block;
+  background-color: #dadada;
+  color: #4d4d4d;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 110px;
+}
+
+a#firefox_os {
+  background: url(images/firefox_top.png), -webkit-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/firefox_top.png), -ms-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/firefox_top.png), -o-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/firefox_top.png), -moz-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/firefox_top.png), linear-gradient(0deg, #b8b8b8, #ffffff);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
+
+a#webian {
+  background: url(images/webian_top.png), -webkit-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/webian_top.png), -ms-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/webian_top.png), -o-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/webian_top.png), -moz-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/webian_top.png), linear-gradient(0deg, #b8b8b8, #ffffff);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
+
+a#drd_pi {
+  background: url(images/drd_top.png), -webkit-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/drd_top.png), -ms-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/drd_top.png), -o-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/drd_top.png), -moz-linear-gradient(0deg, #b8b8b8, #ffffff);
+  background: url(images/drd_top.png), linear-gradient(0deg, #b8b8b8, #ffffff);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
+
+#github {
+  text-align: center;
+  color: #fff;
+}
+
+
