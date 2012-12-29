@@ -120,7 +120,7 @@ nav li a.selected, nav li a:hover {
   text-decoration: overline;
 }
 
-section.page {
+section.page, article.page {
   clear: both;
   background-color: #fff;
   border-radius: 5px;
