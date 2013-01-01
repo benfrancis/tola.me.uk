@@ -1,0 +1,24 @@
+/*
+Theme Name: Tola
+Theme URI: http://tola.me.uk
+Author: Ben Francis
+Author URI: http://tola.me.uk
+Description: A theme for my blog
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, white
+Text Domain: tola
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+article.blog_post h1 {
+  font: 28px 'BelligerentMadnessRegular', Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+article.blog_post .date {
+  color: #999;
+}
