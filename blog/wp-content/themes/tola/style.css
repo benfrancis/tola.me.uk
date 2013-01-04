@@ -22,3 +22,93 @@ article.blog_post h1 {
 article.blog_post .date {
   color: #999;
 }
+
+a span:hover {
+  text-decoration: underline;
+}
+
+#paging_nav {
+  overflow: hidden;
+  min-width: 500px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+#newer {
+  float: left;
+}
+
+#older {
+  float: right;
+}
+
+/* Comments */
+
+#comments {
+  min-width: 580px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#comments_list {
+  display: block;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.children {
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+.comment-body {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blog_post h1 {
+  margin-top: 0;
+}
+
+.comment-meta a {
+  color: #999;
+  font-size: 12px;
+}
+
+#commentform label {
+  padding-bottom: 5px;
+  display: block;
+}
+
+#commentform input, #commentform textarea {
+  background-color: #aaa;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#commentform input:focus, #commentform textarea:focus {
+  background-color: #fff;
+}
+
+#commentform textarea {
+  width: 100%;
+}
+
+/* Subscription */
+
+#subscribe {
+  text-align: center;
+}
+
+#subscribe img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+#subscribe span {
+  color: #666;
+}

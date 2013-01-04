@@ -12,11 +12,11 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Ben Francis - Blog</title>
+    <title>Ben Francis <?php wp_title( '-', true, left ); ?></title>
     <link rel="stylesheet" href="/site.css" type="text/css" />
     <link rel="stylesheet" href="/blog/wp-content/themes/tola/style.css" type="text/css" />
     <link rel="shortcut icon" href="/favicon.ico" />
-
+    <link rel="alternate" type="application/rss+xml" title="Ben Francis Blog" href="/blog/?feed=rss2" />
   </head>
 
   <body>
