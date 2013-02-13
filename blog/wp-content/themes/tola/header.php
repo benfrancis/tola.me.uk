@@ -13,6 +13,7 @@
   <head>
     <meta charset="utf-8">
     <title>Ben Francis <?php wp_title( '-', true, left ); ?></title>
+    <script type="text/javascript" src="/site.js"></script>
     <link rel="stylesheet" href="/site.css" type="text/css" />
     <link rel="stylesheet" href="/blog/wp-content/themes/tola/style.css" type="text/css" />
     <link rel="shortcut icon" href="/favicon.ico" />
