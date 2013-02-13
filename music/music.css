@@ -13,11 +13,11 @@
   text-decoration: none;
   width: 260px;
   list-style-type: none;
-  padding: 20px;
+  padding: 40px 30px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
   display: block;
-  margin: 0 auto;
+  float: left;
 }
 
 #albums h1 {
@@ -110,4 +110,13 @@ article.song small {
 
 article.song pre {
   text-align: left;
+}
+
+article.song audio {
+  display: block;
+  margin: 0 auto;
+}
+
+article.song img {
+  margin: 20px;
 }

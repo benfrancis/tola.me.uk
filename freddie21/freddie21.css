@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'BelligerentMadnessRegular';
+	src: url('fonts/belligerent-webfont.eot?') format('eot'),
+		url('/fonts/belligerent-webfont.woff') format('woff'),
+		url('/fonts/belligerent-webfont.ttf') format('truetype'),
+		url('/fonts/belligerent-webfont.svg#webfontqdGI9bTD') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font: 35px 'BelligerentMadnessRegular', Helvetica, sans-serif;
+  line-height: 45px;
+}
+
+audio {
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  color: #3771c8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.details {
+  color: #999;
+  font-size: 12px;
+}
