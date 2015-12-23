@@ -19,6 +19,11 @@ article.blog_post h1 {
   margin-bottom: 10px;
 }
 
+article.blog_post p {
+  font-family: 'serif';
+  line-height: 130%;
+}
+
 article.blog_post .date {
   color: #999;
 }
