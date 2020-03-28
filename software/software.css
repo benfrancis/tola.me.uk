@@ -1,62 +1,50 @@
-section#software_projects {
-  clear: both;
+#software-projects ul {
   display: block;
-  min-width: 580px;
-  max-width: 960px;
-  color: #000;
-  padding: 0;
   margin: 0 auto;
+  min-width: 500px;
+  max-width: 720px;
+  padding: 0;
 }
 
-#working_on {
-  font: 20px 'BelligerentMadnessRegular', Helvetica, sans-serif;
-  color: #fff;
-}
-
-a.project {
-  display: block;
-  background-color: #dadada;
-  color: #4d4d4d;
-  text-decoration: none;
+#software-projects li {
+  float: left;
+  width: 340px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 5px;
-  padding: 40px 280px 40px 40px;
-  margin-bottom: 20px;
-  height: 80px;
+  list-style-type: none;
+  margin: 10px;
 }
 
-a#firefox_os {
-  background: url(images/firefox_top.png), -webkit-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/firefox_top.png), -ms-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/firefox_top.png), -o-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/firefox_top.png), -moz-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/firefox_top.png), linear-gradient(0deg, #b8b8b8, #ffffff);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
+#software-projects a {
+  display: block;
+  width: 340px;
+  height: 200px;
+  padding: 50px 20px;
+  box-sizing: border-box;
 }
 
-a#webian {
-  background: url(images/webian_top.png), -webkit-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/webian_top.png), -ms-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/webian_top.png), -o-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/webian_top.png), -moz-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/webian_top.png), linear-gradient(0deg, #b8b8b8, #ffffff);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
+#software-projects img {
+  width: 300px;
+  height: 100px;
+  display: block;
+
 }
 
-a#drd_pi {
-  background: url(images/drd_top.png), -webkit-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/drd_top.png), -ms-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/drd_top.png), -o-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/drd_top.png), -moz-linear-gradient(0deg, #b8b8b8, #ffffff);
-  background: url(images/drd_top.png), linear-gradient(0deg, #b8b8b8, #ffffff);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
+footer {
+  clear: both;
 }
 
 #github {
+  padding-top: 20px;
+  display: block;
+  clear: both;
   text-align: center;
   color: #fff;
+}
+
+#social {
+  margin-top: 20px;
 }
 
 

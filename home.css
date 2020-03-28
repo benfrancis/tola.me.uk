@@ -1,22 +1,15 @@
-header hgroup {
-  margin: 100px auto 50px auto;
-  float: none;
-}
-
 section#intro {
   width: 600px;
-  margin: 0 auto;
+  margin: 100px auto;
   position: relative;
   height: 300px;
 }
 
 img#photo {
+  width: 150px;
   border: solid 10px #fff;
+  border-bottom: solid 20px #fff;
   transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  -moz-transform: rotate(-5deg);
   margin-top: 40px;
 }
 
@@ -44,11 +37,4 @@ img#photo {
 
 #tweet time {
   color: #b3b3b3;
-}
-
-footer nav {
-  margin: 0 auto;
-  margin-top: 50px;
-  width: 500px;
-  text-align: center;
 }

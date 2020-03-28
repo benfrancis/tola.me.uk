@@ -4,6 +4,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ben Francis</title>
     <link rel="stylesheet" href="site.css" type="text/css" />
     <link rel="stylesheet" href="home.css" type="text/css" />
@@ -15,10 +16,17 @@
   <body>
 
     <header>
-      <hgroup>
-        <h1>Ben Francis</h1>
-        <h2>tola.me.uk</h2>
-      </hgroup>
+      <h1>Ben Francis</h1>
+      <nav>
+        <ul>
+          <li><a class="selected" href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/software">Software</a></li>
+          <li><a href="/music">Music</a></li>
+          <li><a href="/poems">Poems</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section id="intro">
@@ -31,16 +39,13 @@
    </section>
 
    <footer>
-     <nav>
-      <ul>
-        <li><a class="selected" href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/software">Software</a></li>
-        <li><a href="/music">Music</a></li>
-        <li><a href="/poems">Poems</a></li>
-      </ul>
+     <nav id="social">
+       <a id="twitter-icon" href="https://twitter.com/bfrancis"><img src="/images/twitter_icon-white.svg" alt="Twitter" /></a>
+       <a id="linkedin-icon" href="https://www.linkedin.com/in/benjamintolafrancis/"><img src="/images/linkedin_icon-white.svg" alt="LinkedIn" /></a>
      </nav>
+     <span id="copyright">
+       &copy; Ben Francis 2020
+     </span>
    </footer>
 
   </body>

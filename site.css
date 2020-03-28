@@ -1,12 +1,29 @@
 @font-face {
-    font-family: 'PermanentMarkerRegular';
-    src: url('fonts/PermanentMarker-webfont.eot');
-    src: url('fonts/PermanentMarker-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/PermanentMarker-webfont.woff') format('woff'),
-         url('fonts/PermanentMarker-webfont.ttf') format('truetype'),
-         url('fonts/PermanentMarker-webfont.svg#PermanentMarkerRegular') format('svg');
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url("/fonts/opensans-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    src: url("/fonts/opensans-semibold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-style: normal;
+    src: url("/fonts/opensans-extrabold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Bad Wolf';
     font-weight: normal;
     font-style: normal;
+    src: url("/fonts/badwolf.woff") format("woff");
 }
 
 @font-face {
@@ -27,10 +44,16 @@ body {
   background: -o-linear-gradient(0deg, #000, #313131 50%, #000);
   background: -moz-linear-gradient(0deg, #000, #313131 50%, #000);
   background: linear-gradient(90deg, #000, #313131 50%, #000);
-  font-family: Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   padding: 20px;
   margin: 0;
+}
+
+hgroup h2 {
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0;
 }
 
 a {
@@ -43,37 +66,25 @@ a:hover {
 }
 
 header {
-  min-width: 580px;
-  max-width: 960px;
   margin: 0 auto;
 }
 
 header hgroup {
-  width: 380px;
-  float: left;
   margin-bottom: 30px;
   margin-right: 20px;
 }
 
 header h1 {
-  font: 65px 'PermanentMarkerRegular', Helvetica, sans-serif;
-  letter-spacing: 0;
+  font-size: 100px;
+  font-family: "Bad Wolf", sans-serif;
   text-align: center;
   margin: 0;
 }
 
-header h2 {
-  display: block;
-  font: 20px Helvetica, sans-serif;
-  color: #808080;
-  text-align: right;
-  margin: 0;
-  margin-top: -15px;
-}
-
 header nav {
-  float: right;
-  text-align: right;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 nav {
@@ -118,7 +129,7 @@ nav li a {
 }
 
 nav li a.selected, nav li a:hover {
-  text-decoration: overline;
+  text-decoration: underline;
 }
 
 section.page, article.page {
@@ -135,4 +146,24 @@ section.page, article.page {
 
 section h1 {
   margin-top: 0;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+}
+
+footer nav {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer #social img {
+  margin: 2.5px;
+}
+
+footer #copyright {
+  display: block;
+  padding: 5px;
 }
