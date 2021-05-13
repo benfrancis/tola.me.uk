@@ -1,0 +1,15 @@
+body {
+  background-color: #fff;
+}
+
+main {
+  font-size: 1.6rem;
+}
+
+#intro {
+  background-color: #fff;
+  border: none;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
