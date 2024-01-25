@@ -1,3 +1,8 @@
+html, body {
+  min-width: 32rem;
+  min-height: 32rem;
+}
+
 body {
   flex-direction: column;
 }
