@@ -76,3 +76,14 @@ header nav a {
   background-size: 2.4rem;
   background-position: 0.8rem;
 }
+
+main {
+  padding: 2rem;
+  min-height: auto;
+}
+
+main h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.6rem;
+}

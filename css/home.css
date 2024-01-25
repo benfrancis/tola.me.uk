@@ -67,3 +67,7 @@ main {
   padding: 4rem;
   max-width: 70rem;
 }
+
+footer {
+  padding: 0 2rem 2rem 2rem;
+}
