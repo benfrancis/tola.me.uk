@@ -1,0 +1,74 @@
+main {
+  font-size: 1.8rem;
+}
+
+section {
+  margin: 1rem;
+}
+
+#web-sites, #web-apps, #web-things {
+  background-color: #fff;
+  border: solid 1px rgba(51, 51, 51, 0.1);
+  padding: 0 2rem;
+  margin: 4rem 1rem;
+}
+
+#photo {
+  width: 100%;
+  max-width: 70rem;
+  margin: 1rem 0;
+}
+
+#icons {
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  padding: 2rem 4rem;
+}
+
+.icon h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin: 1rem 0;
+}
+
+a.get-in-touch-button {
+  display: block;
+  width: 16rem;
+  margin: 4rem auto;
+  padding: 0;
+  text-align: center;
+}
+
+.illustration {
+  display: block;
+  margin: 4rem auto;
+  width: 100%;
+  max-width: 30rem;
+}
+
+#trusted-by {
+  text-align: center;
+  margin: 6rem 1rem 3rem 1rem;
+}
+
+#trusted-by h2 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+#trusted-by a {
+  text-decoration: none;
+}
+
+#trusted-by a img {
+  width: 16rem;
+  margin: 3rem;
+  vertical-align: middle;
+}
+
+
