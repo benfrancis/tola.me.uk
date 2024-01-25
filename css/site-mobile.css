@@ -1,0 +1,78 @@
+body {
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  min-height: auto;
+  padding: 3rem;
+  border-right: none;
+  border-bottom: solid 1px #e7e7e7;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+header img {
+  height: 8.4rem;
+  width: auto;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin: 0;
+  margin-top: 1.2rem;
+}
+
+header nav {
+  display: none;
+  margin: 0;
+  padding: 3rem 0;
+  font-size: 1.5rem;
+}
+
+header nav.expanded {
+  display: block;
+}
+
+header nav.visible {
+  display: block;
+}
+
+header nav ul {
+  text-align: left;
+}
+
+header nav ul li {
+  display: block;
+}
+
+header nav a {
+  padding: 1.2rem 0;
+}
+
+#menu-button {
+  display: block;
+  width: 4.2rem;
+  height: 4.2rem;
+  position: absolute;
+  right: 3rem;
+  top: 7.3rem;
+  background-image: url('/images/menu-icon.svg');
+  background-size: 1.6rem;
+  background-position: 1.2rem;
+  background-repeat: no-repeat;
+  background-color: white;
+  border: solid 1px rgba(51, 51, 51, 0.1);
+  cursor: pointer;
+}
+
+#menu-button:hover, #menu-button:focus {
+  border: solid 1px rgba(51, 51, 51, 0.3);
+}
+
+#menu-button.expanded {
+  background-image: url('/images/close-icon.svg');
+  background-size: 2.4rem;
+  background-position: 0.8rem;
+}

@@ -1,0 +1,47 @@
+main {
+  padding: 2rem;
+  min-height: auto;
+}
+
+main h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+#contact {
+  display: block;
+}
+
+#business-card {
+  display: block;
+  height: auto;
+  width: calc(100% - 2rem);
+  min-width: 26rem;
+  max-width: 30rem;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem auto;
+  box-sizing: border-box;
+}
+
+#business-card img {
+  margin: 2rem auto;
+}
+
+#business-card .contact-details {
+  display: block;
+  padding-bottom: 2rem;
+}
+
+#business-card h1 {
+  font-size: 3em;
+}
+
+#business-card h2 {
+  font-size: 1.8rem;
+}
+
+#business-card a {
+  font-size: 1.6rem;
+}

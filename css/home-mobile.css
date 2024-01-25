@@ -2,6 +2,18 @@ body {
   background-color: #fff;
 }
 
+header h2 {
+  display: none;
+}
+
+header img {
+  display: block;
+}
+
+header nav ul li {
+  border-top: solid 1px rgba(51, 51, 51, 0.1);
+}
+
 main {
   font-size: 1.6rem;
 }

@@ -1,3 +1,5 @@
+/* Note: This script is only used by archived pages */
+
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-16744701-2']);
 _gaq.push(['_setDomainName', 'tola.me.uk']);

@@ -1,0 +1,59 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+#business-card {
+  display: flex;
+  flex-direction: row;
+  width: 60rem;
+  height: 31.4rem;
+  background-color: #fff;
+  margin: 5rem auto 10rem auto;
+}
+
+#business-card img {
+  height: 20rem;
+  margin: 5.7rem 5rem 5.7rem 5.7rem;
+}
+
+#business-card h1 {
+  font-size: 3.5rem;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+}
+
+#business-card h2 {
+  font-size: 2.1rem;
+  font-weight: normal;
+  color: #333333b3;
+  margin: 0 0 2rem 0;
+}
+
+#business-card a {
+  display: block;
+  color: #000;
+  font-size: 1.9rem;
+  text-decoration: none;
+}
+
+#business-card a:hover {
+  color: rgba(51, 51, 51, 0.7);
+}
+
+
+#business-card .contact-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
