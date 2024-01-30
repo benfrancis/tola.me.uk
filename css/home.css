@@ -46,7 +46,7 @@ header nav ul li {
 }
 
 header nav ul li:last-child {
-  border: none;
+  border-bottom: none;
 }
 
 header nav a {
